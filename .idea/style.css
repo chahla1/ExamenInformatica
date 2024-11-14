@@ -1,0 +1,37 @@
+
+
+/*body*/
+body{
+    font-family: Marzaki Text, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.markazi-text-custom {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+/*Header*/
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+/*Footer*/
+footer{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer .links a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    animation: social-animation 2s infinite;
+}
+footer .social-links a:hover {
+    color: #ddd;
+}
