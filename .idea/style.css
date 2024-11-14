@@ -5,19 +5,45 @@ body{
     font-family: Marzaki Text, sans-serif;
     margin: 0;
     padding: 0;
-}
-.markazi-text-custom {
-    font-family: "Markazi Text", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
+    display: flex;
+    flex-direction: column;
 }
 /*Header*/
-header{
-    text-align: center;
+header {
+    background-color: #007bff; /* Color de fondo azul */
     padding: 20px;
-    background-color: #f8f8f8;
-    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    margin-right: auto;
+}
+
+header h2 {
+    font-size: 1em;
+    margin: 0;
+}
+/*Menu Izquierdo*/
+.contenidoPagina{
+    display: flex;
+}
+.menuIzq{
+    width: 200px;
+    background-color: #333;
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /*Footer*/
 footer{
@@ -25,6 +51,19 @@ footer{
     color: white;
     padding: 10px;
     text-align: center;
+}
+/*Alineamos el contenido y los enlaces*/
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo del texto del footer */
+.footer-text {
+    font-weight: bold;
 }
 footer .links a{
     color: white;
