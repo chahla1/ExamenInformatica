@@ -45,6 +45,23 @@ header h2 {
     display: flex;
     flex-direction: column;
 }
+.menuIzq .menu-item{
+    margin: 10px 0;
+}
+.menuIzq .menu-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menuIzq .menu-item a:hover{
+    background-color: #007bff; /*He puesto que los items del menu cambien de color al color del header*/
+    color: #fff;
+}
+/*Comparacion de productos*/
+
 /*Footer*/
 footer{
     background-color: #333;
@@ -52,7 +69,7 @@ footer{
     padding: 10px;
     text-align: center;
 }
-/*Alineamos el contenido y los enlaces*/
+
 .footer-content {
     display: flex;
     align-items: center;
@@ -61,7 +78,7 @@ footer{
     margin-bottom: 10px;
 }
 
-/* Estilo del texto del footer */
+
 .footer-text {
     font-weight: bold;
 }
