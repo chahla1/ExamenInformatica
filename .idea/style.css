@@ -61,6 +61,56 @@ header h2 {
     color: #fff;
 }
 /*Comparacion de productos*/
+.contenidoPagina {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.menuIzq {
+    width: 200px; /* Ancho fijo para el menú */
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Categoría */
+.categoria {
+    margin-bottom: 20px;
+}
+
+
+.categoria h3 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Producto */
+.producto {
+    background-color: #f1f1f1; /
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.producto h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.producto p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Espaciado entre productos */
+.categoria .producto:not(:last-child) {
+    margin-bottom: 10px;
+}
 
 /*Footer*/
 footer{
